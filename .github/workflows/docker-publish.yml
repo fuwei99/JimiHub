@@ -42,5 +42,5 @@ jobs:
           context: .
           file: ./Dockerfile.huggingface
           push: true
-          tags: ghcr.io/${{ env.REPO_OWNER_LC }}/${{ env.REPO_NAME_LC }}:latest
+          tags: ghcr.io/${{ env.REPO_OWNER_LC }}/jessaca:latest
           labels: ${{ steps.meta.outputs.labels }}
